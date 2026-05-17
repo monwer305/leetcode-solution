@@ -19,6 +19,7 @@ class Solution:
         ind = length-1
         for i in range(zeros-1,-1,-1):
             swapR+= ind - swap[i]
+            ind-=1
         # solution for finding minimum if 0's can be placed on either side
         return swapL
         
